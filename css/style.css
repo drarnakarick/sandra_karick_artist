@@ -738,6 +738,7 @@
 		padding: 1.5em 0 0 0;
 		list-style: none;
 		cursor: default;
+		color: rgba(0,0,0,0.8);
 	}
 
 	ul.contact li
@@ -767,7 +768,7 @@
 
 	ul.contact li a:hover
 	{
-		color: #fff;
+		color: rgba(0,0,0,0.8);
 	}
 
 /*********************************************************************************/
@@ -921,16 +922,18 @@
 	{
 		position: relative;
 		text-align: center;
+		color: rgba(255,255,255,.4) !important;
+		background-color: rgba(0,0,0,.5) !important;
 	}
 
 	#footer header h2
 	{
-		color: #FFF !important;
+		color: rgba(255,255,255,.4) !important;
 	}
 
 	#footer header .byline
 	{
-		color: rgba(255,255,255,.2);
+		color: rgba(255,255,255,.4);
 	}
 
 /*********************************************************************************/
@@ -941,7 +944,7 @@
 	{
 		position: relative;
 		text-align: center;
-		color: #774535;
+		background-color: rgba(0,0,0,.5) !important;
 	}
 
 	#copyright .container
@@ -949,13 +952,13 @@
 		padding: 3em 0em;
 		border-top: 1px solid;
 		border-color: rgba(255,255,255,.05);
-		color:  rgba(255,255,255,.1);
+		color:  rgba(255,255,255,.3);
 	}
 
 	#copyright a
 	{
 		text-decoration: none;
-		color:  rgba(255,255,255,.2);
+		color:  rgba(255,255,255,.3);
 	}
 
 /*********************************************************************************/
